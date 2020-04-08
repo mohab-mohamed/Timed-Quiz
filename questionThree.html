@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Quiz</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="bootstrap/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand mr-3">Time: <span id="timeLeft"></span></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="#" class="navbar-brand mr-3">View Highscores</a>
+            </div>
+        </div>
+    </div>    
+</nav>
+<div class="jumboContainer">
+<div class="container">
+    <div class="jumbotron">
+        <div class="buttonContainer">
+            <h4>What is the best web framework?</h4>
+        </div>
+        <br>
+        <div class="answers">
+        <p><button href="end.html"  id="react" class="btn btn-success btn-lg">React</button></p>
+        <p><button href="end.html"  id="angular" class="btn btn-success btn-lg">Angular</button></p>
+        <p><button href="end.html"  id="vue" class="btn btn-success btn-lg">Vue</button></p>
+        <p><button href="end.html"  id="javascript" class="btn btn-success btn-lg">JavaScript</button></p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="questionOne.js"></script>
+</body>
+</html>
